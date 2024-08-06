@@ -1,0 +1,519 @@
+header {
+    display: flex;
+    position: fixed;
+    z-index: 3;
+    height: 60px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(14, 13, 13);
+    border: 2px solid transparent;
+}
+
+.fa {
+    color: white;
+    margin-left: 20px;
+    margin-top: 17px;
+    font-size: 30px;
+}
+
+.red {
+    margin-top: -3px;
+    margin-left: 12px;
+}
+
+.you {
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 21px;
+    margin-top: 13px;
+    margin-left: -12px;
+}
+
+.lif {
+    height: 37px;
+    width: 500px;
+    font-size: 17px;
+    border: 1px solid rgb(54, 54, 54);
+    background-color: black;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    color: white;
+    padding-left: 20px;
+}
+
+.li {
+    margin-top: 5px;
+    margin-left: 150px;
+}
+
+.ri {
+    margin-top: 5px;
+    height: 41px;
+    width: 70px;
+    border: 1px solid rgb(54, 54, 54);
+    background-color: black;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.ril i {
+    font-size: 20px;
+    margin-top: -8px;
+    margin-left: -13px;
+}
+
+.ri:hover {
+    background-color: gray;
+    transition: 0.5s;
+}
+
+.cir {
+    height: 35px;
+    width: 35px;
+    border: 1px solid rgb(54, 54, 54);
+    border-radius: 100%;
+    background-color: rgb(27, 27, 27);
+    margin-left: 20px;
+    margin-top: 8px;
+    transition: 0.5s;
+}
+
+.cir i {
+    margin-left: 11px;
+    margin-top: 8px;
+    font-size: 19px;
+}
+
+.cir:hover {
+    background-color: gray;
+    transition: 0.5s;
+}
+
+.ell {
+    margin-top: 1px;
+    margin-left: 200px;
+
+}
+
+.ell i {
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+.ell i:hover {
+    color: gray;
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+.wee {
+    height: 35px;
+    width: 100px;
+    border: 1px solid rgb(54, 54, 54);
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-top: 9px;
+    display: flex;
+    transition: 0.5s;
+    cursor: pointer;
+    background-color:  rgb(14, 13, 13);
+}
+
+.wee i {
+    color: blue;
+    margin-top: 7px;
+    margin-left: 13px;
+}
+
+.wee p {
+    color: blue;
+    padding-left: 8px;
+    margin-top: 7px;
+}
+
+.wee:hover {
+    background-color: rgb(154, 154, 249);
+    transition: 0.5s;
+}
+
+.wee1 {
+    height: 35px;
+    width: 100px;
+    border: 1px solid rgb(54, 54, 54);
+    border-radius: 20px;
+    margin-left: 30px;
+    margin-top: 20px;
+    display: flex;
+    transition: 0.5s;
+    background-color:  rgb(14, 13, 13);
+}
+
+.wee1 i {
+    color: blue;
+    margin-top: 7px;
+    margin-left: 13px;
+}
+
+.wee1 p {
+    color: blue;
+    padding-left: 8px;
+    margin-top: 7px;
+}
+
+.wee1:hover {
+    background-color: rgb(154, 154, 249);
+    transition: 0.5s;
+}
+
+
+.ho {
+    display: flex;
+    height: 35px;
+    width: 200px;
+    border: 1px solid transparent;
+    background-color: rgb(49, 49, 49);
+    margin-top: 4px;
+    margin-left: 6px;
+    border-radius: 11px;
+    transition: 0.2s;
+}
+
+.ho i {
+    color: white;
+    font-size: 24px;
+    margin-left: 12px;
+    margin-top: 6px;
+}
+
+.ho p {
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    margin-left: 20px;
+    margin-top: 8px;
+}
+
+.ho:hover {
+    background-color: gray;
+    transition: 0.2s;
+}
+
+.ho1 {
+    display: flex;
+    height: 35px;
+    width: 200px;
+    border: 1px solid transparent;
+    background-color: rgb(14, 13, 13);
+    margin-top: 5px;
+    margin-left: 6px;
+    border-radius: 11px;
+    transition: 0.2s;
+}
+
+.ho1 i {
+    color: white;
+    font-size: 24px;
+    margin-left: 12px;
+    margin-top: 6px;
+}
+
+.ho1 p {
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    margin-left: 20px;
+    margin-top: 8px;
+}
+
+.ho1:hover {
+    background-color: gray;
+    transition: 0.2s;
+}
+
+.ho2 {
+    display: flex;
+    height: 35px;
+    width: 200px;
+    border: 1px solid transparent;
+    background-color: rgb(14, 13, 13);
+    margin-top: 5px;
+    margin-left: 6px;
+    border-radius: 11px;
+    transition: 0.2s;
+}
+
+.ho2 i {
+    color: white;
+    font-size: 24px;
+    margin-left: 12px;
+    margin-top: 6px;
+}
+
+.ho2 p {
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    margin-left: 20px;
+    margin-top: 8px;
+}
+
+.ho3 {
+    display: flex;
+    height: 35px;
+    width: 200px;
+    background-color: rgb(14, 13, 13);
+    margin-top: 5px;
+    margin-left: 6px;
+}
+
+.ho3 i {
+    color: red;
+    font-size: 24px;
+    margin-left: 6px;
+    margin-top: 4px;
+}
+
+.ho3 p {
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    margin-left: 17px;
+    margin-top: 8px;
+}
+.ha{
+    color: rgb(197, 196, 196);
+    font-family: "Roboto", sans-serif;
+    font-size: 13px;
+    width: 150px;
+    margin-left: 20px;
+    margin-top: 8px;
+}
+.ha1{
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    margin-left: 20px;
+    margin-top: 8px;
+}
+
+.scr1 {
+    position: fixed;
+    height: 550px;
+    width: 230px;
+    left: 0;
+    top: 65px;
+    background-color: rgb(14, 13, 13);
+    overflow-y: scroll;
+}
+
+/* .scr1:hover {
+    overflow-y: scroll;
+} */
+::-webkit-scrollbar{
+    width: 8px;
+}
+::-webkit-scrollbar-track{
+    background: none;
+}
+::-webkit-scrollbar-thumb{
+    background: #282828;
+    border-radius: 5px;
+}
+
+
+
+.pr {
+    color: rgb(69, 68, 68);
+    margin-top: -5px;
+}
+
+.pro {
+    font-size: 17px;
+    color: white;
+    margin-left: 20px;
+    font-family: "Roboto", sans-serif;
+
+}
+.alll{
+    display: flex;
+}
+
+.al {
+    height: 30px;
+    width: 40px;
+    border: 1px solid transparent;
+    background-color: white;
+    margin-top: 65px;
+    margin-left: 255px;
+    border-radius: 7px;
+}
+.al p {
+    color: rgb(49, 49, 49);
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    margin-left: 10px;
+    margin-top: 4px;
+    font-weight: 500;
+}
+
+.al1 {
+    height: 26px;
+    width: 110px;
+    border: solid transparent;
+    background-color: rgb(49, 49, 49);
+    margin-top: 65px;
+    margin-left: 12px;
+    border-radius: 11px;
+    transition: 0, 2s;
+    padding-right: 1px;
+}
+
+.al1 p {
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    margin-left: 8px;
+    margin-top: 6px;
+    font-weight: 500;
+}
+
+.al1:hover {
+    background-color: gray;
+    transition: 0.2s;
+}
+.al2 {
+    height: 26px;
+    width: 60px;
+    border:  solid transparent;
+    background-color: rgb(49, 49, 49);
+    margin-top: 65px;
+    margin-left: 12px;
+    border-radius: 11px;
+    transition: 0, 2s;
+    padding-right: 5px;
+
+}
+
+.al2 p {
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    margin-left: 8px;
+    margin-top: 6px;
+    font-weight: 500;
+}
+
+.al2:hover {
+    background-color: gray;
+    transition: 0.2s;
+}
+.phe {
+    margin-left: 254px;
+     margin-top: 20px;
+}
+
+.phe1 {
+    height: 180px;
+    width: 325px;
+    border-radius: 10px;
+}
+.phe2 {
+    margin-left: 254px;
+    margin-top: 2px;
+}
+
+.ph3 {
+    height: 35px;
+    width: 35px;
+    border-radius: 100%;
+    margin-top: 5px;
+}
+
+.phe2 h4 {
+    font-size: 18px;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    width: 250px;
+    font-weight: 350;
+    margin-top: -45px;
+    margin-left: 50px;
+}
+
+.phe2 p {
+    color: rgb(113, 112, 112);
+    margin-left: 50px;
+    width: 100px;
+    margin-top: -25px;
+}
+.phe0 {
+    height: 185px;
+    width: 360px;
+    border-radius: 10px;
+}
+.phe4 {
+    margin-left: 600px;
+    margin-top: -280px;
+}
+
+.phe3 {
+    margin-left: 600px;
+    margin-top: 2px;
+}
+
+.phe3 h4 {
+    font-size: 18px;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    width: 250px;
+    font-weight: 350;
+    margin-top: -45px;
+    margin-left: 50px;
+}
+
+.phe3 p {
+    color: rgb(113, 112, 112);
+    margin-left: 50px;
+    width: 100px;
+    margin-top: -25px;
+}
+
+.phe6 {
+    margin-left: 980px;
+    margin-top: -265px;
+}
+
+.phe5 {
+    margin-left: 980px;
+    margin-top: 2px;
+}
+
+.phe5 h4 {
+    font-size: 18px;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    width: 250px;
+    font-weight: 350;
+    margin-top: -45px;
+    margin-left: 50px;
+}
+
+.phe5 p {
+    color: rgb(113, 112, 112);
+    margin-left: 50px;
+    width: 100px;
+    margin-top: -25px;
+}
+.phe8 {
+    margin-left: 254px;
+    margin-top: 45px;
+}
+.phe9{
+    margin-left: 610px;
+    margin-top:  -300px;
+}
+.phe10{
+    margin-left: 980px;
+    margin-top: -297px;
+}

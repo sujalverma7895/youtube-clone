@@ -1,0 +1,806 @@
+[12:23 am, 8/7/2024] Vansh Bca: https://apps.apple.com/app/id6502886273
+[9:41 pm, 23/7/2024] Vansh Bca: <!DOCTYPE html>
+<html lang="en">
+<style>
+    header {
+    display: flex;
+    position: fixed;
+    z-index: 3;
+    height: 60px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(14, 13, 13);
+    border: 2px solid transparent;
+}
+
+.fa {
+    color: white;
+    margin-left: 20px;
+    margin-top: 17px;
+    font-size: 30px;
+}
+
+.red {
+    margin-top: -3px;
+    margin-left: 12px;
+}
+
+.you {
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 21px;
+    margin-top: 13px;
+    margin-left: -12px;
+}
+
+.lif {
+    height: 37px;
+    width: 500px;
+    font-size: 17px;
+    border: 1px solid rgb(54, 54, 54);
+    background-color: black;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    color: white;
+    padding-left: 20px;
+}
+
+.li {
+    margin-top: 5px;
+    margin-left: 150px;
+}
+
+.ri {
+    margin-top: 5px;
+    height: 41px;
+    width: 70px;
+    border: 1px solid rgb(54, 54, 54);
+    background-color: black;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.ril i {
+    font-size: 20px;
+    margin-top: -8px;
+    margin-left: -13px;
+}
+
+.ri:hover {
+    background-color: gray;
+    transition: 0.5s;
+}
+
+.cir {
+    height: 35px;
+    width: 35px;
+    border: 1px solid rgb(54, 54, 54);
+    border-radius: 100%;
+    background-color: rgb(27, 27, 27);
+    margin-left: 20px;
+    margin-top: 8px;
+    transition: 0.5s;
+}
+
+.cir i {
+    margin-left: 11px;
+    margin-top: 8px;
+    font-size: 19px;
+}
+
+.cir:hover {
+    background-color: gray;
+    transition: 0.5s;
+}
+
+.ell {
+    margin-top: 1px;
+    margin-left: 200px;
+
+}
+
+.ell i {
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+.ell i:hover {
+    color: gray;
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+.wee {
+    height: 35px;
+    width: 100px;
+    border: 1px solid rgb(54, 54, 54);
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-top: 9px;
+    display: flex;
+    transition: 0.5s;
+    cursor: pointer;
+    background-color:  rgb(14, 13, 13);
+}
+
+.wee i {
+    color: blue;
+    margin-top: 7px;
+    margin-left: 13px;
+}
+
+.wee p {
+    color: blue;
+    padding-left: 8px;
+    margin-top: 7px;
+}
+
+.wee:hover {
+    background-color: rgb(154, 154, 249);
+    transition: 0.5s;
+}
+
+.wee1 {
+    height: 35px;
+    width: 100px;
+    border: 1px solid rgb(54, 54, 54);
+    border-radius: 20px;
+    margin-left: 30px;
+    margin-top: 20px;
+    display: flex;
+    transition: 0.5s;
+    background-color:  rgb(14, 13, 13);
+}
+
+.wee1 i {
+    color: blue;
+    margin-top: 7px;
+    margin-left: 13px;
+}
+
+.wee1 p {
+    color: blue;
+    padding-left: 8px;
+    margin-top: 7px;
+}
+
+.wee1:hover {
+    background-color: rgb(154, 154, 249);
+    transition: 0.5s;
+}
+
+
+.ho {
+    display: flex;
+    height: 35px;
+    width: 200px;
+    border: 1px solid transparent;
+    background-color: rgb(49, 49, 49);
+    margin-top: 4px;
+    margin-left: 6px;
+    border-radius: 11px;
+    transition: 0.2s;
+}
+
+.ho i {
+    color: white;
+    font-size: 24px;
+    margin-left: 12px;
+    margin-top: 6px;
+}
+
+.ho p {
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    margin-left: 20px;
+    margin-top: 8px;
+}
+
+.ho:hover {
+    background-color: gray;
+    transition: 0.2s;
+}
+
+.ho1 {
+    display: flex;
+    height: 35px;
+    width: 200px;
+    border: 1px solid transparent;
+    background-color: rgb(14, 13, 13);
+    margin-top: 5px;
+    margin-left: 6px;
+    border-radius: 11px;
+    transition: 0.2s;
+}
+
+.ho1 i {
+    color: white;
+    font-size: 24px;
+    margin-left: 12px;
+    margin-top: 6px;
+}
+
+.ho1 p {
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    margin-left: 20px;
+    margin-top: 8px;
+}
+
+.ho1:hover {
+    background-color: gray;
+    transition: 0.2s;
+}
+
+.ho2 {
+    display: flex;
+    height: 35px;
+    width: 200px;
+    border: 1px solid transparent;
+    background-color: rgb(14, 13, 13);
+    margin-top: 5px;
+    margin-left: 6px;
+    border-radius: 11px;
+    transition: 0.2s;
+}
+
+.ho2 i {
+    color: white;
+    font-size: 24px;
+    margin-left: 12px;
+    margin-top: 6px;
+}
+
+.ho2 p {
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    margin-left: 20px;
+    margin-top: 8px;
+}
+
+.ho3 {
+    display: flex;
+    height: 35px;
+    width: 200px;
+    background-color: rgb(14, 13, 13);
+    margin-top: 5px;
+    margin-left: 6px;
+}
+
+.ho3 i {
+    color: red;
+    font-size: 24px;
+    margin-left: 6px;
+    margin-top: 4px;
+}
+
+.ho3 p {
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    margin-left: 17px;
+    margin-top: 8px;
+}
+.ha{
+    color: rgb(197, 196, 196);
+    font-family: "Roboto", sans-serif;
+    font-size: 13px;
+    width: 150px;
+    margin-left: 20px;
+    margin-top: 8px;
+}
+.ha1{
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    margin-left: 20px;
+    margin-top: 8px;
+}
+
+.scr1 {
+    position: fixed;
+    height: 550px;
+    width: 230px;
+    left: 0;
+    top: 65px;
+    background-color: rgb(14, 13, 13);
+    overflow-y: scroll;
+}
+
+/* .scr1:hover {
+    overflow-y: scroll;
+} */
+::-webkit-scrollbar{
+    width: 8px;
+}
+::-webkit-scrollbar-track{
+    background: none;
+}
+::-webkit-scrollbar-thumb{
+    background: #282828;
+    border-radius: 5px;
+}
+
+
+
+.pr {
+    color: rgb(69, 68, 68);
+    margin-top: -5px;
+}
+
+.pro {
+    font-size: 17px;
+    color: white;
+    margin-left: 20px;
+    font-family: "Roboto", sans-serif;
+
+}
+.alll{
+    display: flex;
+}
+
+.al {
+    height: 30px;
+    width: 40px;
+    border: 1px solid transparent;
+    background-color: white;
+    margin-top: 65px;
+    margin-left: 255px;
+    border-radius: 7px;
+}
+.al p {
+    color: rgb(49, 49, 49);
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    margin-left: 10px;
+    margin-top: 4px;
+    font-weight: 500;
+}
+
+.al1 {
+    height: 26px;
+    width: 110px;
+    border: solid transparent;
+    background-color: rgb(49, 49, 49);
+    margin-top: 65px;
+    margin-left: 12px;
+    border-radius: 11px;
+    transition: 0, 2s;
+    padding-right: 1px;
+}
+
+.al1 p {
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    margin-left: 8px;
+    margin-top: 6px;
+    font-weight: 500;
+}
+
+.al1:hover {
+    background-color: gray;
+    transition: 0.2s;
+}
+.al2 {
+    height: 26px;
+    width: 60px;
+    border:  solid transparent;
+    background-color: rgb(49, 49, 49);
+    margin-top: 65px;
+    margin-left: 12px;
+    border-radius: 11px;
+    transition: 0, 2s;
+    padding-right: 5px;
+
+}
+
+.al2 p {
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    margin-left: 8px;
+    margin-top: 6px;
+    font-weight: 500;
+}
+
+.al2:hover {
+    background-color: gray;
+    transition: 0.2s;
+}
+.phe {
+    margin-left: 254px;
+     margin-top: 20px;
+}
+
+.phe1 {
+    height: 180px;
+    width: 325px;
+    border-radius: 10px;
+}
+.phe2 {
+    margin-left: 254px;
+    margin-top: 2px;
+}
+
+.ph3 {
+    height: 35px;
+    width: 35px;
+    border-radius: 100%;
+    margin-top: 5px;
+}
+
+.phe2 h4 {
+    font-size: 18px;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    width: 250px;
+    font-weight: 350;
+    margin-top: -45px;
+    margin-left: 50px;
+}
+
+.phe2 p {
+    color: rgb(113, 112, 112);
+    margin-left: 50px;
+    width: 100px;
+    margin-top: -25px;
+}
+.phe0 {
+    height: 185px;
+    width: 360px;
+    border-radius: 10px;
+}
+.phe4 {
+    margin-left: 600px;
+    margin-top: -280px;
+}
+
+.phe3 {
+    margin-left: 600px;
+    margin-top: 2px;
+}
+
+.phe3 h4 {
+    font-size: 18px;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    width: 250px;
+    font-weight: 350;
+    margin-top: -45px;
+    margin-left: 50px;
+}
+
+.phe3 p {
+    color: rgb(113, 112, 112);
+    margin-left: 50px;
+    width: 100px;
+    margin-top: -25px;
+}
+
+.phe6 {
+    margin-left: 980px;
+    margin-top: -265px;
+}
+
+.phe5 {
+    margin-left: 980px;
+    margin-top: 2px;
+}
+
+.phe5 h4 {
+    font-size: 18px;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    width: 250px;
+    font-weight: 350;
+    margin-top: -45px;
+    margin-left: 50px;
+}
+
+.phe5 p {
+    color: rgb(113, 112, 112);
+    margin-left: 50px;
+    width: 100px;
+    margin-top: -25px;
+}
+.phe8 {
+    margin-left: 254px;
+    margin-top: 45px;
+}
+.phe9{
+    margin-left: 610px;
+    margin-top:  -300px;
+}
+.phe10{
+    margin-left: 980px;
+    margin-top: -297px;
+}
+</style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube</title>
+    <link rel="stylesheet" href="you1.css" />
+    <link rel="icon" href="youicon.png" />
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body style="background-color: rgb(14, 13, 13);">
+    <header>
+        <div>
+            <i class="fa fa-bars" aria-hidden="true"></i>
+        </div>
+        <div class="red">
+            <img src="you.png.png" alt="you" height="60px" width="60px">
+        </div>
+        <div class="you">
+            <b>YouTube</b>
+        </div>
+        <div class="li">
+            <input class="lif" type="text" placeholder="Search" required>
+        </div>
+        <div class="ril">
+            <button class="ri"><i class="fa fa-search" aria-hidden="true"></i></button>
+        </div>
+        <div class="cir">
+            <i class="fa fa-microphone" aria-hidden="true"></i>
+        </div>
+        <div class="ell">
+            <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
+        </div>
+        <button class="wee" onclick="signin()">
+            <i class="fa fa-user-circle-o " aria-hidden="true"></i>
+            <p>Sign in</p>
+        </button>
+    </header>
+    <div class="scr1">
+        <div class="ho">
+            <i class="fa fa-home " aria-hidden="true"></i>
+            <p>Home</p>
+        </div>
+        <div class="ho1">
+            <i class="fa fa-youtube-play" aria-hidden="true"></i>
+            <p>Shorts</p>
+        </div>
+        <div class="ho1">
+            <i class="fa fa-youtube" aria-hidden="true"></i>
+            <p>Subscription</p>
+        </div>
+        <p class="pr">__________</p>
+        <div class="ho1">
+            <i class="fa fa-caret-square-o-right" aria-hidden="true"></i>
+            <p>You</p>
+        </div>
+        <div class="ho1">
+            <i class="fa fa-history" aria-hidden="true"></i>
+            <p>History</p>
+        </div>
+        <p class="pr">__________</p>
+        <div class="ho2">
+            <p>Sign in to like videos, comment and subscribe.</p>
+        </div>
+        <button class="wee1" onclick="signin()">
+            <i class="fa fa-user-circle-o " aria-hidden="true"></i>
+            <p>Sign in</p>
+        </button>
+        <p class="pr">__________</p>
+        <p class="pro">Explor</p>
+        <div class="ho1">
+            <i class="fa fa-firefox" aria-hidden="true"></i>
+            <p>Trending</p>
+        </div>
+        <div class="ho1">
+            <i class="fa fa-shopping-bag" aria-hidden="true"></i>
+            <p>Shopping</p>
+        </div>
+        <div class="ho1">
+            <i class="fa fa-music" aria-hidden="true"></i>
+            <p>Music</p>
+        </div>
+        <div class="ho1">
+            <i class="fa fa-film" aria-hidden="true"></i>
+            <p>Film</p>
+        </div>
+        <div class="ho1">
+            <i class="fa fa-gamepad" aria-hidden="true"></i>
+            <p>Gaming</p>
+        </div>
+        <div class="ho1">
+            <i class="fa fa-trophy" aria-hidden="true"></i>
+            <p>Sports</p>
+        </div>
+        <div class="ho1">
+            <i class="fa fa-podcast" aria-hidden="true"></i>
+            <p>Podcast</p>
+        </div>
+        <div class="ho1">
+            <i class="fa fa-lightbulb-o" aria-hidden="true"></i>
+            <p>Courses </p>
+        </div>
+        <p class="pr">__________</p>
+        <div class="ha1">
+            <h3>More About Youtube</h3>
+            <div class="ho3">
+                <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                <p>YouTube Premium</p>
+            </div>
+        </div>
+        <p class="pr">__________</p>
+        <div class="ho1">
+            <i class="fa fa-cog" aria-hidden="true"></i>
+            <p>Setting</p>
+        </div>
+        <div class="ho1">
+            <i class="fa fa-flag" aria-hidden="true"></i>
+            <p>Report History</p>
+        </div>
+        <div class="ho1">
+            <i class="fa fa-question-circle-o" aria-hidden="true"></i>
+            <p>Help</p>
+        </div>
+        <div class="ho1">
+            <i class="fa fa-exclamation-circle" aria-hidden="true"></i>
+            <p>Send Feedback</p>
+        </div>
+        <p class="pr">__________</p>
+        <div class="ha">
+            <p>AboutPressCopyrightContact usCreatorsAdvertiseDevelopers</p>
+            <p> TermsPrivacyPolicy & SafetyHow YouTube worksTest new features</p>
+            <h5>© 2024 Google LLC</h5>
+        </div>
+
+    </div>
+
+    <div>
+        <div class="alll">
+            <div class="al">
+                <p>All</p>
+            </div>
+            <div class="al1">
+                <p>Under 10 Mins</p>
+            </div>
+            <div class="al2">
+                <p>Music</p>
+            </div>
+            <div class="al2">
+                <p>Mixes</p>
+            </div>
+            <div class="al2">
+                <p>Gaming</p>
+            </div>
+            <div class="al1">
+                <p>Ferb Fletcher</p>
+            </div>
+            <div class="al1">
+                <p>Diljit Dosanjh</p>
+            </div>
+            <div class="al1">
+                <p>A.R.Rahman</p>
+            </div>
+            <div class="al1">
+                <p>Tamil Cinema</p>
+            </div>
+            <div class="al2">
+                <p>Comedy</p>
+            </div>
+            <div class="al1">
+                <p>Sonu Nigam</p>
+            </div>
+        </div>
+        <div>
+            <div class="phe">
+                <img src="phineas.webp" alt="cartoon" class="phe1">
+            </div>
+            <div class="phe2">
+                <img src="micky.jpg" alt="channel" class="ph3">
+                <h4>Phineas & Ferb Build Duplicate Robot ! | Phineas And Ferb |</h4>
+                <p>Disney India
+                    88K view</p>
+            </div>
+            <div class="phe4">
+                <img src="weekand.webp" alt="song" class="phe0">
+            </div>
+            <div class="phe3">
+                <img src="channel.jpg" alt="logo" class="ph3">
+                <h4>The Weeknd - After Hours (Audio)</h4>
+                <p>@TheWeeknd</p>
+            </div>
+            <div class="phe6">
+                <img src="r2h.jpg" class="phe1">
+            </div>
+            <div class="phe5">
+                <img src="r2h logo.jpg" class="ph3">
+                <h4>EPL Season 2| Round2Hell|R2H</h4>
+                <p>Round2Hell</p>
+            </div>
+            <div class="phe8">
+                <img src="sajni.jpg" class="phe1">
+            </div>
+            <div class="phe2">
+                <img src="t-series.jpg" class="ph3">
+                <h4>Sajni_Arijit Singh_Laapataa Ladies...</h4>
+                <p>T-Series Club
+                    108k views- 4 daysago
+                </p>
+            </div>
+            <div class="phe9">
+                <img src="ve.jpg" class="phe1">
+            </div>
+            <div class="phe3">
+                <img src="t-series.jpg" class="ph3">
+                <h4>Ve Kamleya_Arijit Singh__Rocky Aur Rani ki Prem Kahani</h4>
+                <p>T-Series Club
+                    1M views- 4 Monthago
+                </p>
+            </div>
+            <div class="phe10">
+                <img src="mrbeast1.jpg" class="phe1">
+            </div>
+            <div class="phe5">
+                <img src="mrbeastlogo.jpg" class="ph3">
+                <h4>I Survived 50 Hours In Antarctica</h4>
+                <p>
+                    MrBeast
+                    200M views
+                    1 year ago
+                </p>
+            </div>
+            <div class="phe8">
+                <img src="mridul.jpg" class="phe1">
+            </div>
+            <div class="phe2">
+                <img src="mridullogo.jpg" class="ph3">
+                <h4> School Life - admission open | the mridul | Pragati | Nitin</h4>
+                <p>The MriDul
+                    1.6M views
+                    20 hours ago
+                </p>
+            </div>
+            <div class="phe9">
+                <img src="ve.jpg" class="phe1">
+            </div>
+            <div class="phe3">
+                <img src="t-series.jpg" class="ph3">
+                <h4>Ve Kamleya_Arijit Singh__Rocky Aur Rani ki Prem Kahani</h4>
+                <p>T-Series Club
+                    1M views- 4 Monthago
+                </p>
+            </div>
+            <div class="phe10">
+                <img src="mrbeast1.jpg" class="phe1">
+            </div>
+            <div class="phe5">
+                <img src="mrbeastlogo.jpg" class="ph3">
+                <h4>I Survived 50 Hours In Antarctica</h4>
+                <p>
+                    MrBeast
+                    200M views
+                    1 year ago
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+
+    <script>
+        function signin() {
+            window.location.href = "signin.html"
+        }
+    </script>
+
+
+</body>
+
+</html>
